@@ -1,0 +1,121 @@
+/*General*/
+.white {
+    color: #ffffff;
+}
+
+/*Estilo de error*/
+.errorSuPrimo{
+    color: #D8000C;
+    background-color: #FFD2D2;
+    border-radius: 10%;
+}
+
+.correctoSuPrimo{
+    color: #ffffff;
+    background-color: #009b3b;
+    border-radius: 10%;
+}
+
+/*border perfecto u know?*/
+.borderPerfe {
+    padding: 1%;
+	-webkit-border-bottom-left-radius: 10px;
+	-khtml-border-radius-bottomleft: 10px;	
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+  
+/*Clase para la barra de los navs*/
+.barraNav {
+
+    padding-top: 0.3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+
+}
+
+ /*Clases para los retos*/ 
+.hastagReto{
+    padding-top: 0.7vw;
+    justify-content: space-around;
+}
+
+.reto{
+    padding-top: 2vw;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 2vw;
+    margin-bottom: 50px;
+    background-color:rgba(42, 42, 42, 0.8);
+    border-style: none;
+}
+
+.flagInput {
+    color: #ffffff;
+    background-color:rgba(42, 42, 42, 0.8);
+    margin-left: 5%;
+}
+.flagButton {
+    color: #ffffff;
+    background-color:rgba(255, 255, 2555, 0.1);
+    margin-left: 5%;
+}
+
+/* Checkboxes de categorias */
+.cats-boxes{
+    justify-content: space-between;
+}
+
+/*futer copi rait*/
+.footerCopy{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Barra inferior en dispositivos mobiles */
+
+.footerMio{
+    display: none;
+}
+
+.imgFooterMob {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .footerCopy{
+        display: none;
+    }
+    
+    .footerMio {
+        display: inline;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(255, 119, 0);
+        color: white;
+        text-align: center;
+        
+    }
+
+    .imgsFoot{
+        justify-content: space-around;
+    }
+
+    .imgFooterMob {
+        display: inline;
+        width: 7vh;
+        padding: 2vw;
+    }
+}

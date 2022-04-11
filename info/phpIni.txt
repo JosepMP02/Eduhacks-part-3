@@ -1,0 +1,6 @@
+/* Lo que hemos puesto en el php.ini */
+
+file_uploads=On
+upload_tmp_dir="C:\Users\...\Eduhacks-Practica3\uploads"
+upload_max_filesize=40M
+max_file_uploads=3
